@@ -1,4 +1,4 @@
-from flask import Flask,render_template,redirect,jsonify,request
+from flask import Flask,render_template,redirect,jsonify,request,current_app
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -9,7 +9,8 @@ def setupDb():
     db.drop_all()
     db.create_all()
     
-
+with app.app_context():
+    print(current_app.name)
 class Question(db.Model):
     __tablename__ = "Question"
 
