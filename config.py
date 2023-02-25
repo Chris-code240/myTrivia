@@ -10,7 +10,7 @@ DEBUG = True
 
 
 # TODO IMPLEMENT DATABASE URL
-SQLALCHEMY_DATABASE_URI = 'postgres://eibfzduj:uKfVn4_KQslqeQL28_4iLKpDQebNWZ5f@mahmud.db.elephantsql.com/eibfzduj'
+SQLALCHEMY_DATABASE_URI = 'postgresql://eibfzduj:uKfVn4_KQslqeQL28_4iLKpDQebNWZ5f@mahmud.db.elephantsql.com/eibfzduj'
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 SESSION_COOKIE_DOMAIN = False
