@@ -1,0 +1,29 @@
+{%extends 'layouts/layout.html' %}
+{%block content %}
+
+<section class="container mx-auto text-white mt-6 pt-6">
+   <h2 class="text-white text-center text-3xl my-3 text-italic flex space-x-1 text-center justify-center items-center">
+    <i class="fa fa-{{icon}}"></i>
+    <i id="type">{{selected}}</i>
+   </h2>
+
+   
+   <div class="flex flex-col items-center space-y-2 my-6" id="board">
+    <!-- Question -->
+    <a href="" class="px-6 py-1 rounded-full bg-red-700 text-center hover:bg-red-400" id="start">Start</a>
+    <div class="space-x-4">
+        <div class="hidden time-wrapper" id="time-wrapper">
+            <i class="fa fa-clock"></i> :
+            <i id="time">0</i>s
+        </div>
+        <span class="hidden text-center text-3xl text-white" id="score">0
+        </span>
+        
+    </div>
+        <div class="hidden question" id="question-board">
+        </div>
+
+   </div>
+</section>
+
+{% endblock%}

@@ -1,0 +1,29 @@
+{%extends 'layouts/layout.html' %}
+{%block content %}
+
+<section class="container mx-auto text-white mt-6">
+    <div class="flex flex-col space-y-2 items-center justify-start text-start text-2xl">
+        <a href="/play/sports" class="hover:text-gray-400">
+            <i class="fa fa-football"></i>
+            Sports
+        </a>
+        <a href="/play/politics" class="hover:text-gray-400">
+            <i class="fa fa-flag"></i>
+            Politics
+        </a>
+        <a href="/play/science" class="hover:text-gray-400">
+            <i class="fa fa-atom"></i>
+            Science
+        </a>
+
+        <a href="/play/general knowledge" class="hover:text-gray-400">
+            <i class="fa fa-book"></i>
+            General Knowledge
+        </a>
+        <a href="/play/random" class="p-1 px-6 py-1 rounded-full bg-lightRed hover:bg-veryLightRed">
+            Random
+        </a>
+    </div>
+</section>
+
+{% endblock%}

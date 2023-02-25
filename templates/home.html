@@ -1,0 +1,15 @@
+{% extends 'layouts/layout.html'%}
+{%block content %}
+    <section class="container mx-auto flex justify-center items-center">
+        <div class="text-center space-y-5">
+            <img src="{{url_for('static',filename='img/Studying-cuate.svg')}}" class="md:border-2 border-gray-400" alt="">
+            <h2 class="font-bold text-4xl text-white">
+                Welcome To Trivia Game
+            </h2>
+
+            <p class="text-white">
+                ...have fun answering some trivia questions.
+            </p>
+        </div>
+    </section>
+{% endblock%}
