@@ -8,9 +8,10 @@ db = SQLAlchemy(app)
 def setupDb():
     db.drop_all()
     db.create_all()
-    
+
 with app.app_context():
-    print(current_app.name)
+    print(current_app.name)    
+
 class Question(db.Model):
     __tablename__ = "Question"
 
