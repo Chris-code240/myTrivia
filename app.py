@@ -2,19 +2,19 @@
 from models import *
 from random import randrange
 from flask import request,abort
-setupDb()
+# setupDb()
 
-ques = Question("Which country won the 2022 World Cup?",'sports','{"Ghana":1,"Argentina":2,"Botswana":3}','Argentina')
-ques.add()
+# ques = Question("Which country won the 2022 World Cup?",'sports','{"Ghana":1,"Argentina":2,"Botswana":3}','Argentina')
+# ques.add()
 
-ques1 = Question("Who is the GOAT?",'sports','{"Ronaldo":1,"Messi":2}','Messi')
-ques1.add()
+# ques1 = Question("Who is the GOAT?",'sports','{"Ronaldo":1,"Messi":2}','Messi')
+# ques1.add()
 
-ques3 = Question("Is Africa country?","general knowledge",'{"True":1,"False":2}','False')
-ques3.add()
+# ques3 = Question("Is Africa country?","general knowledge",'{"True":1,"False":2}','False')
+# ques3.add()
 
-ques4 = Question("The first black president of the USA is?","politics",'{"George Bush":1,"Barack Obama":2,"Trump":3,"Joe Biden":4}','Barack Obama')
-ques4.add()
+# ques4 = Question("The first black president of the USA is?","politics",'{"George Bush":1,"Barack Obama":2,"Trump":3,"Joe Biden":4}','Barack Obama')
+# ques4.add()
 
 
 
